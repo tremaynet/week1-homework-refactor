@@ -49,7 +49,8 @@ Employed the use of semantic HTML to the existing code base and comments:
 
 7. Clean up the CSS to make it more efficient
 8. Consolidate CSS selectors and properties
-    style.css #7 #8
+9. Organize the CSS selectors to follow the semantice structure of the HTML elements 
+    style.css #7 #8 #9
         1.  line 27 changed the css selector from .header div to .header nav
         2.  line 35 changed the css selector from .header div ul to .header nav ul
         3.  line 35 changed the css selector from .header div ul to .header nav ul li
@@ -63,10 +64,10 @@ Employed the use of semantic HTML to the existing code base and comments:
         11. line 115 re-ordered the p selector to be lower in order so that it would set the font size for the contents in the <main> and <aside>
         12. line 98 increased the margin-bottom to 32px to aling with main conent
         13. Reordered CSS to match the flow of the HTML file 
-
-
-9. Organize the CSS selectors to follow the semantice structure of the HTML elements 
 10. Included comments before each element or section of the page - see #4
+
+
+
 
 
 
