@@ -1,4 +1,4 @@
-Readme 
+README
 
 Included: 
 All source files (.css .html. .png, .jpg)
@@ -6,7 +6,7 @@ this README
 
 Homework #05
 
-List of desing and Functional requirements:
+List of design and Functional requirements:
 1. Web accessibility 
 2. Ensure people with scio-economic restrictions have access to their website
 3. Help tp avoid litigation 
@@ -20,7 +20,7 @@ Added the Reset CSS sytle sheet to the index.html file for this project to reduc
 Alt text and Title applied to the folling images and figure classes:
     Index.htm 
         1. line 6 <link rel="stylesheet" href="./assets/css/reset.css">
-        2.line 8 added a title that defines the services offered by Horeiseon
+        2. line 8 added a title that defines the services offered by Horeiseon
         3. line 32 <figure class="stockimage" title="Picture of Team Horiseon"></figure>
         4. line 37 <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="Laptop notebook pencils coffee"/>
         5. line 44 <img src="./assets/images/online-reputation-management.jpg" class="float-left" alt="Human laptop phone"/>
@@ -31,7 +31,13 @@ Alt text and Title applied to the folling images and figure classes:
         
 
 4. Always leave the code you are editing a lotter cleaner than you found it
-    
+Method:
+Employed the use of semantic HTML to the existing code base and comments:
+    Index.html
+        1. line 11 Replaced the original <div> tag with the <header> tag to identify the introductory contents (i.e.; Logo and heading elements.) 
+        2. line 15 Replaced the <div> element on the original index.htm with the <nav> tag to group together the main navigation links aka internal links defined in lines 16, 19 and 22
+        3. line 32 <div> tag was changed to the <figure> to identify content related to but separete from the main content flow.
+        4. line 35 <div> replaced with <main> to group together the content in the main flow identified in lines 
     
 
 5. improve their codebase for long term sustainability
@@ -39,7 +45,7 @@ Alt text and Title applied to the folling images and figure classes:
 7. Clean up the CSS to make it more efficient
 8. Consolidate CSS selectors and properties
 9. Organize the CSS selectors to follow the semantice structure of the HTML elements 
-10. Included comments before each element or section of the page 
+10. Included comments before each element or section of the page - see #4
 
 
 
