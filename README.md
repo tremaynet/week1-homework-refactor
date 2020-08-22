@@ -33,7 +33,7 @@ Alt text and Title applied to the folling images and figure classes:
 5. improve their codebase for long term sustainability
 Method: #4 #5
 Employed the use of semantic HTML to the existing code base and comments:
-    Index.html
+    Index.html 
         1. line 11 Replaced the original <div> tag with the <header> tag to identify the introductory contents (i.e.; Logo and heading elements.) 
         2. line 15 Replaced the <div> element on the original index.htm with the <nav> tag to group together the main navigation links aka internal links defined in lines 16, 19 and 22
         3. line 32 <div> tag was changed to the <figure> to identify content related to but separete from the main content flow.
@@ -45,9 +45,26 @@ Employed the use of semantic HTML to the existing code base and comments:
         9. line 85 replaced the <div> with the <footer> as it contain the Author and copyright related information
     
 6. Ensure that all links are functioning correctly 
-    1. Internal link on line 18, 21 and 24 are linked to the ids on line 36,  and 50. The was tested locally and after being published to github
+    1. Internal link on line 18, 21 and 24 are linked to the ids on line 36 and 50. The was tested locally and after being published to github
+
 7. Clean up the CSS to make it more efficient
 8. Consolidate CSS selectors and properties
+    style.css #7 #8
+        1.  line 27 changed the css selector from .header div to .header nav
+        2.  line 35 changed the css selector from .header div ul to .header nav ul
+        3.  line 35 changed the css selector from .header div ul to .header nav ul li
+        4.  line 49 changed selector name to .stockimage
+        5.  line 64, 73 and 77 change the consolidated all selectors and added each class to each selector and associated them with the appropriate ID this allowed for consoidation and makes the code more efficient 
+        6. Removed selector .float-right based on #6 in the aformention sections
+        7.  line 98 consolidated .benefit-lead, .benefit-brand, .benefit-cost into the same selector
+        8. line 103 consolidated .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 into the same selector
+        9.  line 109 consolidated .benefit-lead img, .benefit-brand img, .benefit-cost img into the same selector
+        10. lines 68, 94, 122 the font families did not match and were not in the same order. I aligne all three to match
+        11. line 115 re-ordered the p selector to be lower in order so that it would set the font size for the contents in the <main> and <aside>
+        12. line 98 increased the margin-bottom to 32px to aling with main conent
+        13. Reordered CSS to match the flow of the HTML file 
+
+
 9. Organize the CSS selectors to follow the semantice structure of the HTML elements 
 10. Included comments before each element or section of the page - see #4
 
