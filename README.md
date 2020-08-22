@@ -59,7 +59,7 @@ Employed the use of semantic HTML to the existing code base and comments:
         7.  line 98 consolidated .benefit-lead, .benefit-brand, .benefit-cost into the same selector
         8. line 103 consolidated .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 into the same selector
         9.  line 109 consolidated .benefit-lead img, .benefit-brand img, .benefit-cost img into the same selector
-        10. lines 68, 94, 122 the font families did not match and were not in the same order. I aligne all three to match
+        10. lines 31, 68, 94, 122 the font families did not match and were not in the same order. I aligne all three to match
         11. line 115 re-ordered the p selector to be lower in order so that it would set the font size for the contents in the <main> and <aside>
         12. line 98 increased the margin-bottom to 32px to aling with main conent
         13. Reordered CSS to match the flow of the HTML file 
